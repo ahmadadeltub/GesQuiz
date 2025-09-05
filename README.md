@@ -1,6 +1,7 @@
 # GesQuiz — Gesture-Powered Classroom Quizzes (PWA)
 
 > **Short**: A privacy-first, on-device web app that lets students answer quizzes with simple **hand gestures**. Built for classrooms, runs in the browser on **laptops/tablets/phones**, and shows **instant results** to teachers—no extra hardware, no cloud video/audio.
+![Uploading image.png…]()
 
 ---
 
@@ -41,7 +42,7 @@
 **Prereqs**: Node 18+ and npm (or pnpm).
 
 ```bash
-git clone https://github.com/<your-org>/gesquiz.git
+git clone https://github.com/ahmadadeltub/GesQuiz
 cd gesquiz
 npm install
 npm run dev
