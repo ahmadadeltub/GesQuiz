@@ -1,7 +1,6 @@
 # GesQuiz — Gesture-Powered Classroom Quizzes (PWA)
 
 > **Short**: A privacy-first, on-device web app that lets students answer quizzes with simple **hand gestures**. Built for classrooms, runs in the browser on **laptops/tablets/phones**, and shows **instant results** to teachers—no extra hardware, no cloud video/audio.
-![Uploading image.png…]()
 
 ---
 
@@ -173,9 +172,11 @@ Unless otherwise stated in `LICENSE`, **all rights reserved**. Do not redistribu
 
 ## 📬 Contact
 
-* Project lead: **Ahmad A. Al-Aji** (QSTSS)
-* Issues: GitHub Issues tab
-* Email (optional): `<add-your-email@example.com>`
+* Project lead: **Ahmad Adel Tubaishat
+* Mobile:+974-66983311
+* Email (optional): `ahmadadeltub@gmail.com`
+* Personal Website :https://dimensions-eb.my.canva.site/ahmad-tubaishat-resume
+  
 
 ---
 
