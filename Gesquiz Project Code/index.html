@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👋</text></svg>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GesQuiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Poppins', 'sans-serif'],
+            },
+            colors: {
+              primary: {
+                DEFAULT: '#2563eb', // blue-600
+                light: '#3b82f6', // blue-500
+                dark: '#1d4ed8', // blue-700
+              },
+              secondary: {
+                DEFAULT: '#f97316', // orange-500
+                light: '#fb923c', // orange-400
+                dark: '#ea580c', // orange-600
+              },
+              accent: {
+                DEFAULT: '#84cc16', // lime-500
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <!-- Added Babel for in-browser JSX/TSX transpilation -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.9.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.6.3"
+  }
+}
+</script>
+<style>
+      @keyframes float {
+        0% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-20px);
+        }
+        100% {
+          transform: translateY(0px);
+        }
+      }
+      .float-icon {
+        animation: float 4s ease-in-out infinite;
+      }
+      /* For better focus visibility, a key accessibility requirement */
+      *:focus-visible {
+        outline: 3px solid #fb923c; /* secondary-light */
+        outline-offset: 2px;
+        border-radius: 4px;
+      }
+    </style>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root" role="main"></div>
+    <!-- Changed script type to text/babel for transpilation -->
+    <script type="text/babel" data-presets="react,typescript" data-type="module" src="index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

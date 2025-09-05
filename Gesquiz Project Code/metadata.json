@@ -1,0 +1,8 @@
+{
+  "name": "GesQuiz",
+  "description": "An interactive quiz application where students answer multiple-choice questions using hand gestures, powered by Gemini for real-time gesture recognition.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "prompt": ""
+}
